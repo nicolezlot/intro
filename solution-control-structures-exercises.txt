@@ -1,0 +1,27 @@
+# Solution 1:
+a = -234
+if a == 0:
+	print("The value is zero")
+elif a >0:
+	print("The value is positive")
+else:
+	print("The value is negative")
+
+
+# Solution 2:
+name = input("Give a name")
+name = name.lower().strip()
+first = name[0]
+if first == "a":
+	print("Congrats")
+else:
+	print("The first character given is not A")
+
+# Solution 3:
+name = input("Give a name")
+name = name.lower().strip()
+first = name[0]
+if first in ["a","e","i","o","u"]:
+	print("Congrats")
+else:
+	print("The first character given is not a vowel")
